@@ -29,10 +29,12 @@
 
 @keyframes moveLogoBack {
   from {
-    top: -13px
+    top: -13px;
+    transform: scale(0.8);
   }
   to {
-    top: 5px
+    top: 5px;
+    transform: scale(1);
   }
 }
 
