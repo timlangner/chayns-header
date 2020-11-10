@@ -1,15 +1,18 @@
 import React, { useState } from 'react';
 import './App.scss';
-import Navbar from './navbar/Navbar';
 import Header from './header/Header';
 import SampleText from "./sampleText/SampleText";
+import Content from './content/Content';
+import Footer from "./footer/Footer";
 
 function App() {
 
     return (
         <div>
             <Header />
-            <SampleText />
+            <Content />
+            {/*<SampleText />*/}
+            {/*<Footer />*/}
         </div>
     );
 }

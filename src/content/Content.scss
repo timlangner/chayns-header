@@ -1,0 +1,25 @@
+.content-wrapper {
+  padding: 50px 15px 15px 15px;
+  line-height: 28px;
+  height: 1000px;
+  //position: absolute;
+  //top: 50%;
+  //left: 50%;
+  //transform: translate(-50%, -50%);
+}
+
+.headline {
+  font-size: 26px;
+  line-height: 35px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.buttonWrapper {
+  text-align: center;
+  margin-top: 20px;
+
+  .button {
+    z-index: -1;
+  }
+}

@@ -1,15 +1,9 @@
-.fakeHeader {
-  height: 50px;
-  width: 100%;
-  background-color: #ECEEF1;
-}
-
 .navbar {
-  border-top: 1px solid black;
+  //border-top: 1px solid black;
   border-bottom: 1px solid black;
-  height: 35px;
+  height: 45px;
   width: 100%;
-  background-color: #45576F;
+  background-color: #415823;
   color: white;
   position: relative;
 }
@@ -19,8 +13,8 @@
   justify-content: flex-start;
   align-items: center;
   margin-left: 25px;
-  height: 40px;
-  font-size: 13px;
+  height: 45px;
+  font-size: 16px;
 
   .navbar-pages {
     display: flex;
@@ -32,6 +26,8 @@
     }
 
     .selectedPage {
+      margin-left: 20px;
+
       .selected {
         font-weight: bold;
         margin-left: 7px;

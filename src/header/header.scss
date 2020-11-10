@@ -13,7 +13,7 @@
     transform: scale(1);
   }
   to {
-    top: -13px;
+    top: -10px;
     transform: scale(0.8);
   }
 }
@@ -29,13 +29,20 @@
 
 @keyframes moveLogoBack {
   from {
-    top: -13px;
+    top: -10px;
     transform: scale(0.8);
   }
   to {
     top: 5px;
     transform: scale(1);
   }
+}
+
+.fakeHeader {
+  height: 140px;
+  width: 100%;
+  background-color: #000000;
+  display: none;
 }
 
 .sticky {
@@ -47,7 +54,7 @@
 .decreaseHeaderHeight {
   height: 100px;
   width: 100%;
-  background-color: #45576F;
+  background-color: #79C23D;
   color: white;
   overflow: hidden;
   position: relative;
@@ -58,7 +65,7 @@
 .increaseHeaderHeight {
   height: 100px;
   width: 100%;
-  background-color: #45576F;
+  background-color: #79C23D;
   color: white;
   overflow: hidden;
   position: relative;
@@ -69,7 +76,7 @@
 .header {
   height: 100px;
   width: 100%;
-  background-color: #45576F;
+  background-color: #79C23D;
   color: white;
   overflow: hidden;
   position: relative;
@@ -85,7 +92,7 @@
   img {
     display: block;
     margin: 0px auto;
-    transform: scale(0.8);
+    transform: scale(0.7);
   }
 }
 
@@ -102,7 +109,7 @@
   img {
     display: block;
     margin: 0px auto;
-    transform: scale(0.8);
+    transform: scale(0.7);
   }
 }
 
@@ -119,6 +126,6 @@
   img {
     display: block;
     margin: 0px auto;
-    transform: scale(0.8);
+    transform: scale(0.7);
   }
 }
