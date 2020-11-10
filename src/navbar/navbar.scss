@@ -1,0 +1,48 @@
+.fakeHeader {
+  height: 50px;
+  width: 100%;
+  background-color: #ECEEF1;
+}
+
+.navbar {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  height: 35px;
+  width: 100%;
+  background-color: #45576F;
+  color: white;
+  position: relative;
+}
+
+.navbar-items {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 25px;
+  height: 40px;
+  font-size: 13px;
+
+  .navbar-pages {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    .mar-left--25 {
+      margin-left: 25px;
+    }
+
+    .selectedPage {
+      .selected {
+        font-weight: bold;
+        margin-left: 7px;
+      }
+
+      .selectedBar {
+        background-color: white;
+        opacity: 50%;
+        height: 3px;
+        width: 100px;
+      }
+    }
+  }
+}

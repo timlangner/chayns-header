@@ -1,0 +1,120 @@
+@keyframes decreaseHeight {
+  from {
+    height: 100px;
+  }
+  to {
+    height: 60px;
+  }
+}
+
+@keyframes moveLogo {
+  from {
+    top: 5px
+  }
+  to {
+    top: -13px
+  }
+}
+
+@keyframes increaseHeight {
+  from {
+    height: 60px;
+  }
+  to {
+    height: 100px;
+  }
+}
+
+@keyframes moveLogoBack {
+  from {
+    top: -13px
+  }
+  to {
+    top: 5px
+  }
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.decreaseHeaderHeight {
+  height: 100px;
+  width: 100%;
+  background-color: #45576F;
+  color: white;
+  overflow: hidden;
+  position: relative;
+  animation: decreaseHeight .4s ease-out;
+  animation-fill-mode: forwards;
+}
+
+.increaseHeaderHeight {
+  height: 100px;
+  width: 100%;
+  background-color: #45576F;
+  color: white;
+  overflow: hidden;
+  position: relative;
+  animation: increaseHeight .4s ease-out;
+  animation-fill-mode: forwards;
+}
+
+.header {
+  height: 100px;
+  width: 100%;
+  background-color: #45576F;
+  color: white;
+  overflow: hidden;
+  position: relative;
+}
+
+.imageCenterer {
+  width: 1000px !important;
+  position: absolute;
+  left: 50%;
+  top: 5px;
+  margin-left: -500px;
+  overflow: hidden;
+  img {
+    display: block;
+    margin: 0px auto;
+    transform: scale(0.8);
+  }
+}
+
+.imageCentererAnimation {
+  width: 1000px !important;
+  position: absolute;
+  left: 50%;
+  top: 5px;
+  margin-left: -500px;
+  overflow: hidden;
+  animation: moveLogo .4s ease-out;
+  animation-fill-mode: forwards;
+
+  img {
+    display: block;
+    margin: 0px auto;
+    transform: scale(0.8);
+  }
+}
+
+.imageCentererBackAnimation {
+  width: 1000px !important;
+  position: absolute;
+  left: 50%;
+  top: 5px;
+  margin-left: -500px;
+  overflow: hidden;
+  animation: moveLogoBack .4s ease-out;
+  animation-fill-mode: forwards;
+
+  img {
+    display: block;
+    margin: 0px auto;
+    transform: scale(0.8);
+  }
+}
