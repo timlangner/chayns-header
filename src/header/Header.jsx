@@ -6,18 +6,20 @@ import Navbar from "../navbar/Navbar";
 const Header = () => {
     const [headerOffset, setHeaderOffset] = useState(1);
     const [isSticky, setIsSticky] = useState(false);
+    const [prevValue, setPrevValue] = useState(window.pageYOffset);
 
     useEffect(() => {
         window.addEventListener('scroll', e => handleNavigation(e));
     }, []);
 
     const handleNavigation = (e) => {
-        if (window.pageYOffset > headerOffset) {
-            console.log('first');
-            console.log('headerOffset', headerOffset);
+        if (window.pageYOffset > headerOffset && prevValue < window.pageYOffset) {
+            console.log('isSticky');
+            console.log('current Offset', window.pageYOffset);
+            console.log('prevValue', prevValue);
+            // setPrevValue(window.pageYOffset);
             setIsSticky(true);
         } else {
-            console.log('second');
             setIsSticky(false);
         }
     }
@@ -32,7 +34,7 @@ const Header = () => {
                 </div>
                 <Navbar />
             </div>
-            <div className="fakeHeader" style={isSticky ? { display: 'block' } : null}/>
+            <div className="fakeHeader" style={isSticky ? { display: 'block' } : null} />
         </>
     );
 };
