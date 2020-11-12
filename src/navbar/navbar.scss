@@ -7,6 +7,10 @@
   position: relative;
   padding-left: 23%;
   z-index: 1000;
+
+  @media (max-width: 650px) {
+    padding-left: 0;
+  }
 }
 
 .navbar-items {
@@ -36,7 +40,6 @@
         margin-left: 8.5px;
         height: 20px;
         margin-bottom: 12.5px;
-        //border-bottom: 3px solid rgba(255, 255, 255, .5);
       }
 
       .selectedBar {
