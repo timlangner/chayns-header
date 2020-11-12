@@ -28,10 +28,14 @@
 
     .selectedPage {
       margin-left: 20px;
+      margin-top: 13.5px;
+      margin-bottom: 4px;
 
       .selected {
         font-weight: bold;
-        margin-left: 7px;
+        margin-left: 8.5px;
+        height: 20px;
+        margin-bottom: 12.5px;
         //border-bottom: 3px solid rgba(255, 255, 255, .5);
       }
 
@@ -39,7 +43,7 @@
         background-color: white;
         opacity: 50%;
         height: 3px;
-        width: 100px;
+        width: 95px;
       }
     }
   }
