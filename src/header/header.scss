@@ -1,25 +1,3 @@
-@keyframes moveLogo {
-  from {
-    top: 5px;
-    transform: scale(1);
-  }
-  to {
-    top: -13px;
-    transform: scale(0.8);
-  }
-}
-
-@keyframes moveLogoBack {
-  from {
-    top: -13px;
-    transform: scale(0.8);
-  }
-  to {
-    top: 5px;
-    transform: scale(1);
-  }
-}
-
 .sticky {
   position: fixed;
   top: 0;
@@ -48,39 +26,5 @@
         transform: scale(0.7);
       }
     }
-  }
-}
-
-.imageCentererAnimation {
-  width: 1000px !important;
-  position: absolute;
-  left: 50%;
-  top: 5px;
-  margin-left: -500px;
-  overflow: hidden;
-  animation: moveLogo .35s ease-out;
-  animation-fill-mode: forwards;
-
-  img {
-    display: block;
-    margin: 0px auto;
-    transform: scale(0.7);
-  }
-}
-
-.imageCentererBackAnimation {
-  width: 1000px !important;
-  position: absolute;
-  left: 50%;
-  top: 5px;
-  margin-left: -500px;
-  overflow: hidden;
-  animation: moveLogoBack .35s ease-out;
-  animation-fill-mode: forwards;
-
-  img {
-    display: block;
-    margin: 0px auto;
-    transform: scale(0.7);
   }
 }

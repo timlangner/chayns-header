@@ -8,8 +8,6 @@ const Header = () => {
     const [isSticky, setIsSticky] = useState(false);
     const [currentOffset, setCurrentOffset] = useState(0);
 
-    console.log(currentOffset);
-
     useEffect(() => {
         window.addEventListener('scroll', e => handleScroll(e));
     }, []);
