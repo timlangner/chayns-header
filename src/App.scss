@@ -3,6 +3,24 @@ body {
   font-weight: 300;
   font-size: 16px;
   margin: 0 !important;
-  background-color: #000000;
   color: white;
+
+  .fullscreen-bg {
+    position: fixed;
+    min-width: 100vw;
+    min-height: 100vh;
+    top: 0;
+    z-index: -120;
+    background-color: #414f33;
+
+    .fullscreen-bg__video {
+      position: absolute;
+      min-height: calc(100% + 15px);
+      min-width: calc(100% + 15px);
+      background-repeat: no-repeat;
+      left: -15px;
+      top: -15px;
+    }
+
+  }
 }
