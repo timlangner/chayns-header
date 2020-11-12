@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {useEffect, useRef, useState} from 'react';
 import './header.scss';
 import bamboo from './images/bamboo.png';
 import Navbar from "../navbar/Navbar";
@@ -6,35 +6,29 @@ import Navbar from "../navbar/Navbar";
 const Header = () => {
     const [headerOffset, setHeaderOffset] = useState(1);
     const [isSticky, setIsSticky] = useState(false);
-    const [prevValue, setPrevValue] = useState(window.pageYOffset);
+    const [currentOffset, setCurrentOffset] = useState(0);
+    const imageRef = useRef(null);
+
+    console.log(currentOffset);
 
     useEffect(() => {
-        window.addEventListener('scroll', e => handleNavigation(e));
+        window.addEventListener('scroll', e => handleScroll(e));
     }, []);
 
-    const handleNavigation = (e) => {
-        if (window.pageYOffset > headerOffset && prevValue < window.pageYOffset) {
-            console.log('isSticky');
-            console.log('current Offset', window.pageYOffset);
-            console.log('prevValue', prevValue);
-            // setPrevValue(window.pageYOffset);
-            setIsSticky(true);
-        } else {
-            setIsSticky(false);
-        }
+    const handleScroll = (e) => {
+        setCurrentOffset(window.pageYOffset);
     }
 
     return (
         <>
             <div className="sticky">
-                <div className={ isSticky ? 'decreaseHeaderHeight' : 'increaseHeaderHeight' }>
-                    <div className={ isSticky ? 'imageCentererAnimation' : 'imageCentererBackAnimation' }>
-                        <img src={bamboo} alt="logo" />
+                <div className='header' style={ currentOffset <= 40 ? { height: `${100 - currentOffset}px` } : { height: '60px' }}>
+                    <div className='image-wrapper'>
+                        <img src={bamboo} alt="logo" ref={imageRef} style={ currentOffset < 40 ? {transform: `scale(${0.7 - ((currentOffset / 100) / 2)})`} : {transform: 'scale(0.5)'} }/>
                     </div>
                 </div>
                 <Navbar />
             </div>
-            {/*<div className="fakeHeader" style={isSticky ? { display: 'block' } : null} />*/}
         </>
     );
 };
