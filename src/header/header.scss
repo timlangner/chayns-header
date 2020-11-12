@@ -58,7 +58,7 @@
   color: white;
   overflow: hidden;
   position: relative;
-  animation: decreaseHeight .4s ease-out;
+  animation: decreaseHeight .35s ease-out;
   animation-fill-mode: forwards;
 }
 
@@ -69,7 +69,7 @@
   color: white;
   overflow: hidden;
   position: relative;
-  animation: increaseHeight .4s ease-out;
+  animation: increaseHeight .35s ease-out;
   animation-fill-mode: forwards;
 }
 
@@ -103,7 +103,7 @@
   top: 5px;
   margin-left: -500px;
   overflow: hidden;
-  animation: moveLogo .4s ease-out;
+  animation: moveLogo .35s ease-out;
   animation-fill-mode: forwards;
 
   img {
@@ -120,7 +120,7 @@
   top: 5px;
   margin-left: -500px;
   overflow: hidden;
-  animation: moveLogoBack .4s ease-out;
+  animation: moveLogoBack .35s ease-out;
   animation-fill-mode: forwards;
 
   img {
