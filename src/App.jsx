@@ -3,7 +3,7 @@ import './App.scss';
 import Header from './header/Header';
 import Content from './content/Content';
 import Footer from "./footer/Footer";
-import poster from "./header/images/bambooPoster.jpg";
+import poster from "./images/bambooPoster.jpg";
 
 function App() {
 
@@ -16,7 +16,7 @@ function App() {
             </div>
             <Header />
             <Content />
-            <div style={{ height: '500px' }} />
+            {/*<div style={{ height: '300px' }} />*/}
             <Footer />
         </>
     );

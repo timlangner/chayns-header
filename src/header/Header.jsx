@@ -1,11 +1,9 @@
-import React, {useEffect, useRef, useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import './header.scss';
-import bamboo from './images/bamboo.png';
+import bamboo from '../images/bamboo.png';
 import Navbar from "../navbar/Navbar";
 
 const Header = () => {
-    const [headerOffset, setHeaderOffset] = useState(1);
-    const [isSticky, setIsSticky] = useState(false);
     const [currentOffset, setCurrentOffset] = useState(0);
 
     console.log(currentOffset);
