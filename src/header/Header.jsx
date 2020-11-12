@@ -34,7 +34,7 @@ const Header = () => {
                 </div>
                 <Navbar />
             </div>
-            <div className="fakeHeader" style={isSticky ? { display: 'block' } : null} />
+            {/*<div className="fakeHeader" style={isSticky ? { display: 'block' } : null} />*/}
         </>
     );
 };
