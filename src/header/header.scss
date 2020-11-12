@@ -15,15 +15,17 @@
     .image-wrapper {
       width: 1000px !important;
       position: absolute;
+      height: 100%;
       left: 50%;
-      top: 5%;
+      //top: 5%;
       margin-left: -500px;
       overflow: hidden;
 
       img {
         display: block;
         margin: 0 auto;
-        transform: scale(0.7);
+        height: 100%;
+        //transform: scale(0.7);
       }
     }
   }
