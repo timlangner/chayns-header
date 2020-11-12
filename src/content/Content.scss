@@ -6,7 +6,6 @@
   .content-wrapper {
     line-height: 26px;
     height: 100%;
-    font-size: 16.8px;
 
     .content {
       margin: 0;
@@ -18,6 +17,10 @@
 
       @media (max-width: 650px) {
         width: 95%;
+      }
+
+      b {
+        font-weight: bold;
       }
     }
   }
