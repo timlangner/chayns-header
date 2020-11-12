@@ -26,7 +26,7 @@ const Header = () => {
 
     return (
         <>
-            <div className={ isSticky ? 'sticky' : null}>
+            <div className={ isSticky ? 'sticky' : null} style={{ zIndex: '100' }}>
                 <div className={ isSticky ? 'decreaseHeaderHeight' : 'increaseHeaderHeight' }>
                     <div className={ isSticky ? 'imageCentererAnimation' : 'imageCentererBackAnimation' }>
                         <img src={bamboo} alt="logo" />
