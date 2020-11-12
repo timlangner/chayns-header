@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/chayns-header/static/css/main.268fa37c.chunk.css",
-    "main.js": "/chayns-header/static/js/main.c76588cd.chunk.js",
-    "main.js.map": "/chayns-header/static/js/main.c76588cd.chunk.js.map",
-    "runtime-main.js": "/chayns-header/static/js/runtime-main.9e1c4106.js",
-    "runtime-main.js.map": "/chayns-header/static/js/runtime-main.9e1c4106.js.map",
-    "static/js/2.fe44287c.chunk.js": "/chayns-header/static/js/2.fe44287c.chunk.js",
-    "static/js/2.fe44287c.chunk.js.map": "/chayns-header/static/js/2.fe44287c.chunk.js.map",
-    "static/js/3.04bfd9b3.chunk.js": "/chayns-header/static/js/3.04bfd9b3.chunk.js",
-    "static/js/3.04bfd9b3.chunk.js.map": "/chayns-header/static/js/3.04bfd9b3.chunk.js.map",
+    "main.css": "/chayns-header/static/css/main.87a5ed5a.chunk.css",
+    "main.js": "/chayns-header/static/js/main.3607b69a.chunk.js",
+    "main.js.map": "/chayns-header/static/js/main.3607b69a.chunk.js.map",
+    "runtime-main.js": "/chayns-header/static/js/runtime-main.2205d5d5.js",
+    "runtime-main.js.map": "/chayns-header/static/js/runtime-main.2205d5d5.js.map",
+    "static/js/2.93874ab1.chunk.js": "/chayns-header/static/js/2.93874ab1.chunk.js",
+    "static/js/2.93874ab1.chunk.js.map": "/chayns-header/static/js/2.93874ab1.chunk.js.map",
+    "static/js/3.39129134.chunk.js": "/chayns-header/static/js/3.39129134.chunk.js",
+    "static/js/3.39129134.chunk.js.map": "/chayns-header/static/js/3.39129134.chunk.js.map",
     "index.html": "/chayns-header/index.html",
-    "static/css/main.268fa37c.chunk.css.map": "/chayns-header/static/css/main.268fa37c.chunk.css.map",
-    "static/js/2.fe44287c.chunk.js.LICENSE.txt": "/chayns-header/static/js/2.fe44287c.chunk.js.LICENSE.txt",
+    "static/css/main.87a5ed5a.chunk.css.map": "/chayns-header/static/css/main.87a5ed5a.chunk.css.map",
+    "static/js/2.93874ab1.chunk.js.LICENSE.txt": "/chayns-header/static/js/2.93874ab1.chunk.js.LICENSE.txt",
     "static/media/bambooPoster.87755a1b.jpg": "/chayns-header/static/media/bambooPoster.87755a1b.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.9e1c4106.js",
-    "static/js/2.fe44287c.chunk.js",
-    "static/css/main.268fa37c.chunk.css",
-    "static/js/main.c76588cd.chunk.js"
+    "static/js/runtime-main.2205d5d5.js",
+    "static/js/2.93874ab1.chunk.js",
+    "static/css/main.87a5ed5a.chunk.css",
+    "static/js/main.3607b69a.chunk.js"
   ]
 }
