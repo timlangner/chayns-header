@@ -1,22 +1,23 @@
 .content-centerer {
   position: relative;
-  height: 100%;
+  height: calc(100vh - 145px);
 
   .content-wrapper {
-    padding-top: 25%;
     line-height: 26px;
-    width: 55%;
     height: 100%;
     font-size: 16.8px;
-    text-align: left;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 
-    @media (max-width: 650px) {
-      width: 95%;
+    .content {
+      margin: 0;
+      width: 60%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      @media (max-width: 650px) {
+        width: 95%;
+      }
     }
   }
 

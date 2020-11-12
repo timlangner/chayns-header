@@ -16,7 +16,8 @@ function App() {
             </div>
             <Header />
             <Content />
-            {/*<Footer />*/}
+            <div style={{ height: '500px' }} />
+            <Footer />
         </>
     );
 }
