@@ -12,7 +12,7 @@ const Footer = () => {
                         <img src={bambooLogo} alt="bamboo-logo" />
                     </div>
                     <div className="company-address">
-                        <p style={{ fontWeight: 'bold' }}>BamBoo! Ahaus</p>
+                        <p>BamBoo! Ahaus</p>
                         <p>Parallelstraße 46</p>
                         <p>48683 Ahaus</p>
                     </div>
