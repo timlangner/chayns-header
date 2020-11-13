@@ -17,7 +17,7 @@ const Header = () => {
     return (
         <>
             <div className="sticky">
-                <div className='header' style={ currentOffset < 55 ? { height: `${100 - currentOffset}px` } : { height: '45px' }}>
+                <div className='header' style={ currentOffset < 75 ? { height: `${120 - currentOffset}px` } : { height: '45px' }}>
                     <div className='image-wrapper'>
                         <img src={bamboo} alt="logo"/>
                     </div>
