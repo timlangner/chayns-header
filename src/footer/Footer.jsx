@@ -27,8 +27,8 @@ const Footer = () => {
                     <img src={chayns} alt="chayns-logo" />
                 </div>
                 <div className="privacy-wrapper">
-                    <a className="privacy-wrapper__item">Impressum</a>
-                    <a className="privacy-wrapper__item">Datenschutz</a>
+                    <a className="privacy-wrapper__item" href="javascript:void(0)">Impressum</a>
+                    <a className="privacy-wrapper__item" href="javascript:void(0)">Datenschutz</a>
                 </div>
             </div>
         </div>
