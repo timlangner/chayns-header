@@ -16,7 +16,6 @@ function App() {
             </div>
             <Header />
             <Content />
-            {/*<div style={{ height: '300px' }} />*/}
             <Footer />
         </>
     );

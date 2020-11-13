@@ -17,7 +17,7 @@ const Navbar = () => {
                             <p className="selected mar-left--25">Shutdown</p>
                             <div className="selectedBar" />
                         </div>
-                        <p className="mar-left--25">Gutscheine</p>
+                        <p className="page mar-left--25">Gutscheine</p>
                     </div>
                 </div>
             </div>
