@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
-import './header.scss';
 import bamboo from '../images/bamboo.png';
 import Navbar from "../navbar/Navbar";
+import './header.scss';
 
 const Header = () => {
     const [currentOffset, setCurrentOffset] = useState(0);

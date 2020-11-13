@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import './App.scss';
 import Header from './header/Header';
 import Content from './content/Content';
 import Footer from "./footer/Footer";
 import poster from "./images/bambooPoster.jpg";
+import './App.scss';
 
 function App() {
 
