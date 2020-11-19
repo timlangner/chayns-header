@@ -56,4 +56,12 @@
       }
     }
   }
+
+  .context-menu-icon {
+    display: none;
+
+    @media (max-width: 650px) {
+      display: block;
+    }
+  }
 }

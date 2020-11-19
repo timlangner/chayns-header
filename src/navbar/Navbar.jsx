@@ -1,6 +1,6 @@
 import React from 'react';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faBars} from "@fortawesome/free-solid-svg-icons";
+import {faBars, faEllipsisV} from "@fortawesome/free-solid-svg-icons";
 import './navbar.scss';
 
 const Navbar = () => {
@@ -18,6 +18,7 @@ const Navbar = () => {
                         </div>
                         <p className="page mar-left--25">Gutscheine</p>
                     </div>
+                    <FontAwesomeIcon icon={faEllipsisV} className="context-menu-icon" style={{ color: 'white', transform: 'scale(1.1)', marginLeft: '90%' }} />
                 </div>
             </div>
         </>
